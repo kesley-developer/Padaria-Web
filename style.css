@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(115, 77, 5);
+    overflow: hidden;
+    line-height: 200px;
+    max-height: 200px;
+}
+
+header > h1{
+    color: white;
+}
+
+header > img{
+    width: 200px;
+    height: 115px;
+}
+
+#menu-header{
+    display: flex;
+    align-items: center;
+}
+
+#list-menu{
+    display: flex;
+    margin-right: 1rem;
+}
+
+.item-menu-header{
+    margin-right: 25px;
+}
+
+.item-menu-header > a:hover{
+    color: yellow;
+    transition: 1s;
+}
+
+.item-menu-header > a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#botao-header{
+    display: flex;
+}
+
+#botao-header > button{
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+#botao-header > button > a{
+    display: flex;
+    align-items: center;
+}
+
+#botao-header > button > a > img{
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
