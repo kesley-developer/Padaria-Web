@@ -77,3 +77,15 @@ header > img{
     text-decoration: none;
     font-weight: 400;
 }
+
+#img-destaque{    
+    background: url(imgs/padaria.webp) no-repeat center;    
+    background-size: cover;
+    padding: 260px;
+}
+
+.img-div{
+    background: url(imgs/img-div.jpg) center;
+    background-size: auto;
+    padding: 25px;
+}
