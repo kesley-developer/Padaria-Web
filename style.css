@@ -89,3 +89,30 @@ header > img{
     background-size: auto;
     padding: 25px;
 }
+
+#avaliation{
+    text-align: center;
+}
+
+#avaliation > .line{
+    width: 10%;
+    margin: 0 auto;    
+}
+
+#cliente-list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 5%;
+    font-size: 3ch;
+}
+
+#cliente-list > li > img{
+    width: 80px;
+    height: 70px;
+}
+
+#products{
+    background: linear-gradient(180deg, #d49664 8.33%, rgba(244, 200, 175, 0) 100%);    
+}
