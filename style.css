@@ -15,6 +15,7 @@ header{
     overflow: hidden;
     line-height: 200px;
     max-height: 200px;
+    border-bottom: 1px groove #fff;
 }
 
 header > h1{
@@ -79,19 +80,31 @@ header > img{
 }
 
 #img-destaque{    
-    background: url(imgs/padaria.webp) no-repeat center;    
+    background: linear-gradient(#734c058c,#ffffff56), url(imgs/padaria.webp) no-repeat center;    
     background-size: cover;
     padding: 260px;
 }
 
+/* ANIMATION FOR img-div */
+@keyframes load-opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 50%;
+    }
+}
+
 .img-div{
+    animation: load-opacity 2s; /* ANIMATION */
     background: url(imgs/img-div.jpg) center;
     background-size: auto;
-    padding: 25px;
+    padding: 25px; 
+    opacity: 50%;   
 }
 
 #avaliation{
-    text-align: center;
+    text-align: center;    
 }
 
 #avaliation > .line{
@@ -116,7 +129,7 @@ header > img{
 #products{
     background: linear-gradient(180deg, #d49664 8.33%, rgba(244, 200, 175, 0) 100%);    
     padding: 30px;
-    text-align: center;
+    text-align: center;    
 }
 
 .section-products{
@@ -137,4 +150,44 @@ header > img{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 22px;    
+}
+
+#products > a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;    
+    color: #111;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#products > a:hover{
+    font-size: 22px;
+    transition: .2s;
+    color: tomato;
+}
+
+#sobre-nos{
+    background-image: url(imgs/fundo-sobre-nos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+#sobre-nos > h3{        
+    font-size: 60px;        
+}
+
+#sobre-nos > p{
+    margin: 3rem;    
+    font-size: 22px;    
+    font-weight: 500;    
+    margin-top: 2em;
+    text-align: left;
 }
