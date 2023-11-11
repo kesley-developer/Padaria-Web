@@ -191,3 +191,42 @@ header > img{
     margin-top: 2em;
     text-align: left;
 }
+
+footer{
+    padding: 80px;
+    background-image: url(imgs/img-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;    
+}
+
+footer h2{
+    color: #111;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;   
+    gap: 1rem; 
+}
+
+.item-menu-footer{
+    align-items: center;
+    margin-top: 30px;
+    display: flex;            
+}
+
+.item-menu-footer img{
+    width: 34px;
+    height: 34px;
+}
+
+.item-menu-footer p{
+    color: #111;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
